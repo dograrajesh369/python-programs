@@ -1,0 +1,11 @@
+#Example of pass statement :- pass is a null statement 
+i= 10
+if i>0:
+   pass
+while i>6:
+   pass
+print("Rajesh is a good boy")
+
+def run(player):
+   pass
+

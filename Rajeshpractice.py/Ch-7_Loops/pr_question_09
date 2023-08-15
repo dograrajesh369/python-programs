@@ -1,0 +1,21 @@
+# write a program to print the following star pattern
+
+#       * * *
+#       *   *           for n=3
+#       * * *
+
+
+n = 3
+
+for i in range(n):
+    # printing stars in the first row
+    if i == 0:
+        print("*" * n)
+    # printing stars and spaces in the middle rows
+    elif i < n-1:
+        print("*",end="")
+        print(" " *(n-2),end="")
+        print("*")
+    # printing stars in the last row
+    else:
+        print("*" * n)

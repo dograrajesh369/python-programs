@@ -1,0 +1,31 @@
+# write a program to greet a user with "good day" using function
+
+# program written without using "def" function
+
+# User = input("Enter your name: ")
+# print("Good day, " + User)
+
+# program written with using "def" function
+
+def greet(Name):
+    print("Good day, " + Name)
+
+# while using def function just type function name
+greet("Rajesh Kumar Dogra")
+greet("Sunny")
+
+# another example of def function
+
+def sum(n1,n2):
+    print(n1+n2)
+
+sum(451,251)
+print(sum)
+
+# or
+
+# def sum(n1,n2):
+#     return n1+n2
+
+# s= sum(451,251)
+# print(s)
